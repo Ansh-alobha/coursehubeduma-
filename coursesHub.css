@@ -1,0 +1,151 @@
+.navbar-brand img {
+    width: 100px;
+    height: 24px;
+    margin-top: 0.2cm
+}
+
+
+.navbar-nav .nav-link {
+    font-weight: 600;
+    color: #000;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffb619;
+
+}
+
+.navbar-nav {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.dropdown-menu.dropdown-large {
+    width: 1000px;
+}
+
+.dropdown-menu h6 {
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0;
+    padding: 0.5rem 1.5rem;
+    color: #6c757d;
+}
+
+.dropdown-item {
+    font-weight: 400;
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa;
+    color: #000;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    color: #ffb619;
+}
+
+.dropdown-menu.dropdown-large.dropdown-course {
+    width: 950px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.icon-link {
+    text-align: center;
+    display: block;
+    /* Ensures the link takes up the full width */
+    font-size: 1.25rem;
+    /* Adjust font size if needed */
+    color: #000;
+    /* Adjust color if needed */
+    text-decoration: none;
+    /* Remove underline */
+    margin-top: 10px;
+    /* Add margin if needed */
+}
+
+.card-image-top {
+    width: 265.5;
+    height: 196.88;
+}
+.card-body {
+    position: relative;
+    width: 265.5px;
+    height: 400px; /* Adjust as needed */
+    overflow: hidden;
+  }
+  
+  .card-body img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-body h1,
+  .card-body ul,
+  .card-body button {
+    position: relative;
+    transition: transform 0.5s ease;
+  }
+  
+  
+  .card-body:hover h1 {
+    transform: translateY(30px);
+  }
+  
+  .card-body:hover ul {
+    transform: translateY(30px);
+  }
+  
+  .card-body:hover button {
+    transform: translateY(30px);
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns:  auto auto auto;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+  }
+  .grid-item svg {
+    max-width: 50px;
+    
+  }
+  .grid-item:hover {
+    transform: translateY(-10px);
+    
+  }
+  .grid-item button {
+    display: block;
+    font-size: 16px;
+    font-weight:bold;
+  }
+  .grid-item {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  .top-categories {
+    text-align: center;
+    padding: 20px;
+    background-color:#f8f9fb
+  }
+  
+.top-categories h2 {
+    margin-bottom: 20px;
+  }
+  
